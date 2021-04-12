@@ -1,6 +1,6 @@
 <template>
 	<div class="components">
-		<h1>Components Page</h1>
+		<h1 class="page-heading">Components</h1>
 	</div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
 	<div class="links">
-		<h1>Links Page</h1>
+		<h1 class="page-heading">Helpful Links</h1>
 	</div>
 </template>
 

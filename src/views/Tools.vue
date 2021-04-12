@@ -1,6 +1,6 @@
 <template>
 	<div class="tools">
-		<h1>Tools Page</h1>
+		<h1 class="page-heading">Tools</h1>
 	</div>
 </template>
 

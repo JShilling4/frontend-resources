@@ -30,7 +30,7 @@ import TheNavbar from "@/components/TheNavbar/TheNavbar.vue";
 
 export default {
 	components: {
-		TheNavbar: TheNavbar,
+		TheNavbar,
 	},
 };
 </script>
@@ -43,19 +43,36 @@ export default {
 }
 
 .view {
-	padding: 4rem 4rem;
+	padding: 0 4rem;
 }
 
 .navbar {
 	&__logo {
-		width: 100px;
+		width: 150px;
 	}
     &__heading {
         margin-left: 2rem;
         font-size: 20px;
+        font-weight: normal;
     }
 	&__navItem {
-		padding: 0 0 0 2rem;
+		padding: 0 0 0 2.5rem;
+        text-decoration: none;
+        color: $gray-link;
+        transition: color .3s;
+
+        &:hover {
+            color: $orange;
+        }
 	}
+}
+
+.page-heading {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.section-heading {
+    color: $blue-green;
 }
 </style>

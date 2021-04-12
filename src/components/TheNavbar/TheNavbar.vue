@@ -1,18 +1,18 @@
 <template>
 	<nav class="navbar">
-        <!-- Brand -->
+		<!-- Brand -->
 		<div class="navbar__brand">
 			<slot name="brand">
 				<img src="@/assets/logo.png" alt="Logo" class="logo" />
 			</slot>
 		</div>
 
-        <!-- Left side -->
-		<div class="navbar__left">
+		<!-- Left side -->
+		<!-- <div class="navbar__left">
 			<slot name="left"></slot>
-		</div>
+		</div> -->
 
-        <!-- Right side -->
+		<!-- Right side -->
 		<div class="navbar__right">
 			<slot name="right">
 				<a href="/" class="navItem">Link1</a>
@@ -48,7 +48,7 @@ export default {
 	display: flex;
 	align-items: center;
 	padding: 1rem 4rem;
-    
+
 	&__brand {
 		.logo {
 			width: 100px;

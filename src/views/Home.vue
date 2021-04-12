@@ -1,6 +1,6 @@
 <template>
 	<div class="home">
-		<h1>Home Page</h1>
+		<h1 class="page-heading">Ruoff Frontend Resources</h1>
 	</div>
 </template>
 
