@@ -26,7 +26,26 @@
 		<section class="section logos">
 			<h2 class="section-heading">Logos</h2>
 			<div class="logo-container">
-				<img src="https://webresources.ruoff.com/logo-horizontal-color-nmls/png/250/0" alt="" />
+				<div class="logo">
+					<img
+						src="https://webresources.ruoff.com/logo-horizontal-color-nmls/png/250/0"
+						alt=""
+					/>
+					<AppButton class="teal-outline">
+						Copy URL
+					</AppButton>
+				</div>
+
+				<div class="logo">
+					<img
+						src="https://webresources.ruoff.com/logo-horizontal-white-nmls/png/250/0"
+						class="dark"
+						alt=""
+					/>
+					<AppButton class="teal-outline">
+						Copy URL
+					</AppButton>
+				</div>
 			</div>
 		</section>
 	</div>
@@ -91,15 +110,42 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.brand {
+	max-width: 1000px;
+	margin: 0 auto;
+}
 .section {
 	margin-bottom: 4rem;
 }
-.swatch-container {
-	display: flex;
-	margin-bottom: 2rem;
-	.swatch {
-		&:not(:first-child) {
-			margin-left: 2rem;
+
+section.colors {
+	.swatch-container {
+		display: flex;
+		margin-bottom: 2rem;
+		.swatch {
+			&:not(:first-child) {
+				margin-left: 2rem;
+			}
+		}
+	}
+}
+
+section.logos {
+	.logo-container {
+		display: flex;
+		align-items: center;
+		.logo {
+			display: flex;
+			flex-direction: column;
+			&:not(:first-child) {
+				margin-left: 2rem;
+			}
+			img {
+                margin-bottom: 1rem;
+				&.dark {
+					background-color: #000;
+				}
+			}
 		}
 	}
 }

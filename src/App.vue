@@ -18,7 +18,7 @@
 			<router-link to="/brand" class="navbar__navItem">Brand</router-link>
 			<router-link to="/components" class="navbar__navItem">Components</router-link>
 			<router-link to="/tools" class="navbar__navItem">Tools</router-link>
-			<router-link to="/links" class="navbar__navItem">Links</router-link>
+			<router-link to="/conventions" class="navbar__navItem">Conventions</router-link>
 		</template>
 	</TheNavbar>
 
